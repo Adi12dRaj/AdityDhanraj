@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Dhanraj</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/532dca04a1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <!-- Add this JavaScript code in a script tag at the end of your body section -->
+
+
+    <nav>
+        <ul style="justify-content: left;">
+            <li><h2>aDItYA dHaNRaJ</h2></li>
+        </ul>
+        
+        <ul style="justify-content: right;">
+            <li><a href="#about">About</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a> </li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
+            <li><a href="#follow-me">Follow-me</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav-link');
+    
+        // Function to apply animation on hover
+        function addAnimation() {
+            this.classList.add('animated'); // Add a CSS class with animation
+        }
+    
+        // Function to remove animation on mouseout
+        function removeAnimation() {
+            this.classList.remove('animated'); // Remove the animation class
+        }
+    
+        // Add event listeners to each navbar link
+        navLinks.forEach(link => {
+            link.addEventListener('mouseenter', addAnimation);
+            link.addEventListener('mouseleave', removeAnimation);
+        });
+    </script>
+
+    <!-- About Me -->
+    <section id="about" style="border-bottom: 4px solid #333;">
+        <div class="centered">
+            <img src="MYIMG.jpg" alt="Your Photo">
+            <br>
+            <br>
+            <center><h5 style="width: 70%; text-align: justify;">
+                "Hello, I'm Aditya Dhanraj, a dedicated Computer Science Engineering (CSE) student enrolled at VIT-Vellore. My life is a vibrant tapestry of diverse interests and passions. Music, with its harmonious melodies, serves as my sanctuary. I find pure joy in taking the wheel and embarking on open-road adventures. Cricket fuels my competitive spirit, offering both challenges and camaraderie.
+                Endlessly curious, I constantly explore new horizons and domains, always eager to expand my knowledge. Web development and coding are my creative outlets, where I build digital worlds. With an unwavering love for learning, I eagerly embrace every opportunity that comes my way, seeking to excel in all my endeavors."</h5></center>
+        </div>
+    </section>
+
+    <!-- Academics -->
+    <section id="academics" style="background-color: aliceblue; border-bottom: 4px solid #333;">
+        <h2>Academics</h2>
+        <br>
+        <div class="column">
+            <img src="CBSELogo.png" alt="Academic Photo 1" >
+           <h5  style="padding-left: 9%; color: black">Completed my Xth from CBSE Board with an aggregate of 95.4%.</h5>
+            <h5>Year of completion: 2019</h5></a>
+        </div>
+        <hr style="height: 2.5px; width: 25%; color: black;">
+        <div class="column">
+            <img src="CBSELogo.png" alt="Academic Photo 2">
+            <h5 style="padding-left: 9%; color: black;">Completed my XIIth from CBSE Board with an aggregate of 82.8%.</h5>
+            <h5>Year of study: 2019-2021</h5></a> 
+        </div>
+        <hr style="height: 2.5px; width: 25%; color: black;">
+        <div class="column">
+            <img src="VITLOGO.png" alt="Academic Photo 3">
+            <h5 style="padding-left: 9%; color: black;">Currently pursuing B-Tech in Computer Science Engineering from VIT-Vellore, Tamil Nadu, Vellore.Year of study: 2021-Present</h5></a> 
+            <!-- <h5></h5> -->
+        </div>
+        <hr style="height: 2.5px; width: 25%; color: black;">
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" style="border-bottom: 4px solid #333;">
+        <h2>Experience</h2>
+        <div class="column">
+            <img src="MFC logo.png" alt="Academic Photo 1" >
+            <h5 style="padding-left: 9%; color: black;">Senior Core Committee Member of Mozilla Firefox Club-VIT.</h5>
+            <h5>Year of joining: November 2022-Present</h5>
+        </div>
+        <hr style="height: 2.5px; width: 25%; color: black;">
+        <div class="column">
+            <img src="BNB VIT.jpeg" alt="Academic Photo 2">
+            <h5 style="padding-left: 9%; color: black;">Senior Core Committee Member of Bulls and Bears The Finance Club-VIT.</h5>
+                <h5>Year of joining: November 2022-Present</h5>
+        </div>
+        <hr style="height: 2.5px; width: 25%; color: black;">
+        <div class="column">
+            <img src="CRIS-Logo.jpg" alt="Academic Photo 3">
+            <h5 style="padding-left: 9%; color: black;">Frontend Web Developer Intern at Center for Railway Information System (CRIS).</h5>
+            <h5>Year of joining: September 2023-Present</h5></a> 
+            <!-- <h5></h5> -->
+        </div>
+        <hr style="height: 2.5px; width: 25%; color: black;">
+    </section>
+
+    <!-- Skills -->
+<section id="skills" style="border-bottom: 4px solid #333;">
+    <h2>Skills</h2>
+    <br><br>
+    <div class="container" style="background-color: rgb(235, 233, 241); padding: 3% 3%;">
+        <div class="row">
+            <!-- First Row of Cards -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">C/C++</h5>
+                        <p class="card-text">4 ⭐ in C/C++ in Hackerrank, and solved various real scenario problems.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">5 ⭐ in Python in Hackerrank, and solved various real scenario problems.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">Skilled in Java programming with a deep understanding of its principles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- Second Row of Cards -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Structures and Algorithms</h5>
+                        <p class="card-text">Proficient in Data Structures and Algorithms (DSA) with a strong problem-solving aptitude, also achieved Udemy Certificate.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Analysis of algorithms</h5>
+                        <p class="card-text">Adept in the analysis of algorithms, demonstrating a strong grasp of optimization techniques like DP,Greedy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">R-Programmin and MATLAB</h5>
+                        <p class="card-text">Proficient in both R programming and MATLAB, showcasing expertise in data analysis and modeling in statistics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Third Row of Cards -->
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Database Management System</h5>
+                        <p class="card-text">Proficient in Database Management Systems (DBMS) with expertise in design, implementation, and optimization, under Oracle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Operating System</h5>
+                        <p class="card-text">Proficient in operating systems, demonstrating expertise in their principles and practical applications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Artificial Intelligence and Machine learning.</h5>
+                        <p class="card-text">Started the program and currently learnig from Udemy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <div id='contact'>
+    <h2 style="padding-top: 2%;">Contact me</h2>
+    <form method="post" action="contact.php" style="padding-left: 15%; padding-bottom: 5%; padding-top: 5%; padding-right: 15%;">
+
+    <form method="get" action="" style="padding-left: 15%; padding-bottom: 5%; padding-top: 5%; padding-right: 15%;">
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">First Name</label>
+          <input type="name" class="form-control" id="exampleInputPassword1" name="fname">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Last Name</label>
+            <input type="name" class="form-control" id="exampleInputPassword1" name="lname"> 
+          </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+            <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+        </div>
+        <center><button type="submit" class="btn btn-primary">Submit</button></center>
+      </form>
+    </div> -->
+    <div id='follow-me' style="padding-bottom: 3%; padding-top: 3%;">
+        <center><div class=follow-icon>
+        <a href="https://www.linkedin.com/in/aditya-dhanraj-18a9821b5"><i class="fab fa-linkedin fa-2x" style="color: white; margin: 1%;"></i></a>
+        <a href="https://x.com/adityad99587766/status/1700160177389834629?s=46"><i class="fab fa-twitter-square fa-2x"  style="color: white; margin: 1%;"></i></a>
+        <a href="https://instagram.com/adi_draj?igshid=MzMyNGUyNmU2YQ=="><i class="fab fa-instagram fa-2x" style="color: white; margin: 1%;"></i></a>
+        <a href="https://www.facebook.com/aditya.dhanraj.359"><i class="fab fa-facebook-square fa-2x" style="color: white; margin: 1%;"></i></a>
+    </div></center> 
+  </div>
+</body>
+</html>
